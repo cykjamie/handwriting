@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+		<!-- overall size -->
+		<div id="wrap">
+		  <div class="container">
+			<nav class="navbar non-printable">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+        		</div>
+
+				<!--/.nav-collapse -->
+			  </div>
+			  <!--/.container-fluid -->
+			</nav>
+		<h3 class="non-printable">Handwriting Worksheet Maker<br /><small>Simply type anything you want. It will appear in the paper section below. When ready, click the Print Worksheet button.</small></h3>
+	  
+	  	<div class="container non-printable">
+		  <p class="font-size-label">Font Size</p>
+		  <button id="up">+</button>
+		  <p id="font-size"></p>
+		  <button id="down">-</button>
+		</div>
+
+		<div class="row non-printable">
+		  <div class="col-lg-12">
+	        <textarea id="inputTextBox" class="form-control" rows="5"></textarea>
+		  </div>
+		</div>
+  
+    <!-- /.row -->
+		<div class="spacer non-printable"></div>
+		<div class="row">
+		  <div class="col-lg-12">
+			  <h1><div id="paper00" class="printable"></div></h1>
+			  <h1><div id="paper01" class="printable"></div></h1>
+			  <h1><div id="paper02" class="printable"></div></h1>
+		  </div>	
+    	</div>
+
+	    <!-- /.row -->
+    	<div class="spacer non-printable"></div>
+		<div class="row non-printable">
+		  <div class="col-lg-12">
+			<h3 id="about">To print the lines<br /><small> 1. In your browser's Print window, click 'More settings'  <br> 2. Check 'Background graphics' </small></h3>	  
+	  
+  		<!-- /.row -->
+		<div class="spacer non-printable"></div>
+		<div class="row non-printable">
+		  <div class="col-lg-12" style="text-align:center;">
+		  	<a href="javascript: window.print();"><button class="btn btn-primary btn-large" data-target="#print"><i class="glyphicon glyphicon-print"></i> Print Worksheet</button></a>
+		  </div>
+		</div>
+	  
+	  <!-- /.row -->
+        <!-- /.column -->
+			  </div>
+			</div>
+			<!-- /.row -->
+		  </div>
+		  <!-- /.container -->
+		  <div id="push"></div>
+		</div>
+		<!-- /#wrap -->
+		<div id="footer">
+		  <div class="container non-printable">
+			<p class="muted credit">Handwriting Worksheet Maker - box and tracing &copy; 2021 - Jamie Park</p>
+		  </div>
+		</div>
+		<!-- Print Modal -->
+		<!-- JavaScript -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="wpractice.js"></script>
+		
+	</body>
+	
+		<!--Copyright (c) 2021 by Cassidy (https://codepen.io/cassidybychance/pen/mJjEVx)
+
+		Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+		The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+		-->
+		<!-- 		
+		Copyright (c) 2021 by James Barnett (https://codepen.io/jamesbarnett/pen/LChqb)
+
+		Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+		The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ 		-->
+</html>
