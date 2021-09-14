@@ -239,4 +239,7 @@ h3 small {
 }
 
 
-
+.ad-banner {
+	width: 320px;
+	margine: 0 auto;
+}
